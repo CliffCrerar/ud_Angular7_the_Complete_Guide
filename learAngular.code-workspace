@@ -55,6 +55,7 @@
 		"javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
 		"javascript.implicitProjectConfig.experimentalDecorators": true,
 		"autoimport.showNotifications": true,
-		"prettier.tabWidth": 4
+		"prettier.tabWidth": 4,
+		"git.ignoreLimitWarning": true
 	}
 }
