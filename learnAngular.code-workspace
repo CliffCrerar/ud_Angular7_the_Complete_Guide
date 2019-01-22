@@ -118,6 +118,21 @@
 		"typescript.referencesCodeLens.enabled": true,
 		"tsimporter.tsconfigName": "tsconfig.json",
 		"tsimporter.showNotifications": true,
-		"tsimporter.spaceBetweenBraces": true
+		"tsimporter.spaceBetweenBraces": true,
+		"[yaml]": {
+			"editor.insertSpaces": false,
+			"editor.tabSize": 4,
+			"editor.autoIndent": true
+		},
+		"[typescript]": {
+			"editor.insertSpaces": false,
+			"editor.tabSize": 4,
+			"editor.autoIndent": true
+		},
+		"[javascript]": {
+			"editor.insertSpaces": false,
+			"editor.tabSize": 4,
+			"editor.autoIndent": true
+		}
 	}
 }
