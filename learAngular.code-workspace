@@ -74,13 +74,15 @@
 		],
 		"files.associations": {},
 		"html.format.enable": true,
-		"html.format.preserveNewLines": true,
+		"html.format.preserveNewLines": false,
 		"html.suggest.html5": true,
 		"codemetrics.basics.EnabledForHTML": true,
 		"htmlhint.documentSelector": ["html", "htm"],
 		"htmlhint.enable": true,
 		"css.trace.server": "messages",
 		"html.autoClosingTags": true,
-		"html.format.wrapAttributes": "force-expand-multiline"
+		"html.format.wrapAttributes": "force-expand-multiline",
+		"html.format.endWithNewline": false,
+		"html.format.maxPreserveNewLines": null
 	}
 }

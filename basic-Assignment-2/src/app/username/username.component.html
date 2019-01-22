@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-6">
+      <!-- <form class="form-group"> -->
+      <label for="userName">Input a username</label>
+      <input
+        type="text"
+        autocomplete="false"
+        name="userName"
+        id="userName"
+        class="form-control ang-form-control"
+        [(ngModel)]="username"
+        (input)="resetButtonSwitch()"
+      />
+      <!-- </form> -->
+
+      <div class="panel panel-default ang-panel">
+        <div class="panel-body">
+          <p>{{ username }}</p>
+        </div>
+      </div>
+      <button
+        (click)="clearInput()"
+        class="btn btn-warning"
+        [disabled]="resetButtonOff"
+      >
+        Reset form
+      </button>
+    </div>
+  </div>
+</div>
