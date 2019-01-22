@@ -37,7 +37,6 @@
 		"typescript.suggestionActions.enabled": true,
 		"typescript.tsserver.log": "normal",
 		"typescript.tsserver.trace": "verbose",
-		"typescript.validate.enable": false,
 		"typescriptHero.imports.insertSemicolons": true,
 		"typescriptHero.imports.stringQuoteStyle": "'",
 		"tslint.enable": true,
@@ -55,7 +54,7 @@
 		"prettier.tabWidth": 4,
 		"html.format.indentHandlebars": true,
 		"html.format.indentInnerHtml": true,
-		"tslint.ignoreDefinitionFiles": false,
+		"tslint.ignoreDefinitionFiles": true,
 		"typescript.disableAutomaticTypeAcquisition": true,
 		"typescript.format.insertSpaceBeforeFunctionParenthesis": true,
 		"typescript.tsc.autoDetect": "off",
@@ -81,6 +80,24 @@
 		"htmlhint.enable": true,
 		"css.trace.server": "messages",
 		"html.autoClosingTags": true,
-		"html.format.wrapAttributes": "force-expand-multiline"
+		"html.format.wrapAttributes": "force-expand-multiline",
+		"typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+		"typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+		"typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+		"typescript.preferences.importModuleSpecifier": "relative",
+		"auto-close-tag.SublimeText3Mode": true,
+		"typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+		"htmlhint.options": {
+			"attr-lowercase": [
+				"*ngIf",
+				"ngIf",
+				"*ngFor",
+				"ngFor",
+				"ngSwitch",
+				"ngModel",
+				"[(ngModel)]"
+			],
+			"doctype-first": false
+		}
 	}
 }
