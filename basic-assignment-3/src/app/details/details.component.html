@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="con-d-flex center-block">
+    <button
+      (click)="onButtonClick()"
+      class="btn btn-secondery center-block disp-button"
+    >
+      Display Details
+    </button>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Details</h3>
+        <!-- <p class="text-danger" [ngStyle]="{ opacity: toggleTextDisplay }">
+          !!TOGGLE FLASH!!
+        </p> -->
+        <p class="text-danger" *ngIf="toggleTextDisplay">!!TOGGLE FLASH!!</p>
+      </div>
+      <div class="panel-body">
+        <p
+          *ngFor="let click of btnClicks"
+          [ngStyle]="{ backgroundColor: click.split('|')[0] >= 5 && 'blue' }"
+          [ngClass]="{ fontWhite: click.split('|')[0] >= 5 }"
+        >
+          {{ click }}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
