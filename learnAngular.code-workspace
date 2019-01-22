@@ -95,9 +95,26 @@
 				"ngFor",
 				"ngSwitch",
 				"ngModel",
-				"[(ngModel)]"
+				"[(ngModel)]",
+				"#noServer",
+				"noServer",
+				"[ngStyle]",
+				"ngClass",
+				"[ngClass]"
 			],
 			"doctype-first": false
-		}
+		},
+		"editor.autoIndent": true,
+		"editor.foldingStrategy": "auto",
+		"editor.highlightActiveIndentGuide": true,
+		"editor.insertSpaces": false,
+		"editor.tabSize": 4,
+		"editor.wrappingIndent": "indent",
+		"editor.detectIndentation": false,
+		"editor.renderIndentGuides": true,
+		"typescript.referencesCodeLens.enabled": true,
+		"tsimporter.tsconfigName": "tsconfig.json",
+		"tsimporter.showNotifications": true,
+		"tsimporter.spaceBetweenBraces": true
 	}
 }
