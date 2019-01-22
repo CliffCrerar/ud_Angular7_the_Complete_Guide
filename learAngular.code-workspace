@@ -1,7 +1,7 @@
 {
 	"folders": [
 		{
-			"path": "."
+			"path": "./Angular-course-project"
 		}
 	],
 	"settings": {
@@ -25,28 +25,25 @@
 		"typescript.format.enable": true,
 		"typescript.format.insertSpaceAfterCommaDelimiter": true,
 		"typescript.format.insertSpaceAfterConstructor": true,
-		"typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
 		"typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
 		"typescript.format.insertSpaceAfterTypeAssertion": true,
 		"typescript.format.placeOpenBraceOnNewLineForFunctions": true,
 		"typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
 		"typescript.implementationsCodeLens.enabled": true,
-		"typescript.locale": "de",
-		"typescript.referencesCodeLens.enabled": true,
+		"typescript.locale": "en",
 		"typescript.reportStyleChecksAsWarnings": true,
 		"typescript.suggest.autoImports": true,
 		"typescript.suggest.paths": true,
 		"typescript.suggestionActions.enabled": true,
 		"typescript.tsserver.log": "normal",
 		"typescript.tsserver.trace": "verbose",
-		"typescript.validate.enable": true,
+		"typescript.validate.enable": false,
 		"typescriptHero.imports.insertSemicolons": true,
 		"typescriptHero.imports.stringQuoteStyle": "'",
 		"tslint.enable": true,
 		"emmet.triggerExpansionOnTab": true,
 		"typescriptHero.imports.insertSpaceBeforeAndAfterImportBraces": true,
 		"editor.formatOnSave": true,
-		"editor.foldingStrategy": "indentation",
 		"editor.glyphMargin": false,
 		"javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
 		"javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
@@ -55,6 +52,18 @@
 		"javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
 		"javascript.implicitProjectConfig.experimentalDecorators": true,
 		"autoimport.showNotifications": true,
-		"prettier.tabWidth": 4
+		"prettier.tabWidth": 4,
+		"html.format.indentHandlebars": true,
+		"html.format.indentInnerHtml": true,
+		"tslint.ignoreDefinitionFiles": false,
+		"typescript.disableAutomaticTypeAcquisition": true,
+		"typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+		"typescript.tsc.autoDetect": "off",
+		"javascript.format.enable": false,
+		"javascript.suggest.paths": false,
+		"javascript.suggest.enabled": false,
+		"javascript.validate.enable": false,
+		"jsDocCompletion.enabled": false,
+		"javascript.preferences.importModuleSpecifier": "relative"
 	}
 }
