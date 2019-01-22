@@ -64,6 +64,23 @@
 		"javascript.suggest.enabled": false,
 		"javascript.validate.enable": false,
 		"jsDocCompletion.enabled": false,
-		"javascript.preferences.importModuleSpecifier": "relative"
+		"javascript.preferences.importModuleSpecifier": "relative",
+		"html.trace.server": "messages",
+		"auto-close-tag.activationOnLanguage": [
+			"xml",
+			"javascript",
+			"typescript",
+			"HTML (Eex)"
+		],
+		"files.associations": {},
+		"html.format.enable": true,
+		"html.format.preserveNewLines": true,
+		"html.suggest.html5": true,
+		"codemetrics.basics.EnabledForHTML": true,
+		"htmlhint.documentSelector": ["html", "htm"],
+		"htmlhint.enable": true,
+		"css.trace.server": "messages",
+		"html.autoClosingTags": true,
+		"html.format.wrapAttributes": "force-expand-multiline"
 	}
 }
