@@ -1,10 +1,18 @@
 {
 	"folders": [
 		{
-			"path": "./Angular-course-project"
+			"path": "./Angular-Recipe-Project-App"
 		}
 	],
 	"settings": {
+		"editor.autoIndent": true,
+		"editor.foldingStrategy": "indentation",
+		"editor.highlightActiveIndentGuide": true,
+		"editor.insertSpaces": false,
+		"editor.tabSize": 4,
+		"editor.wrappingIndent": "indent",
+		"editor.detectIndentation": false,
+		"editor.renderIndentGuides": true,
 		"javascript.preferences.quoteStyle": "single",
 		"typescript.preferences.quoteStyle": "single",
 		"prettier.singleQuote": true,
@@ -71,7 +79,10 @@
 			"typescript",
 			"HTML (Eex)"
 		],
-		"files.associations": {},
+		"files.associations": {
+			"*.html": "html",
+			"*.ts": "typescript"
+		},
 		"html.format.enable": true,
 		"html.format.preserveNewLines": true,
 		"html.suggest.html5": true,
@@ -104,14 +115,6 @@
 			],
 			"doctype-first": false
 		},
-		"editor.autoIndent": true,
-		"editor.foldingStrategy": "auto",
-		"editor.highlightActiveIndentGuide": true,
-		"editor.insertSpaces": false,
-		"editor.tabSize": 4,
-		"editor.wrappingIndent": "indent",
-		"editor.detectIndentation": false,
-		"editor.renderIndentGuides": true,
 		"typescript.referencesCodeLens.enabled": true,
 		"tsimporter.tsconfigName": "tsconfig.json",
 		"tsimporter.showNotifications": true,
