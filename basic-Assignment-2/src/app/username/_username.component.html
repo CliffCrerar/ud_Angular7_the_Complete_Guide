@@ -11,6 +11,7 @@
         id="userName"
         class="form-control ang-form-control"
         [(ngModel)]="username"
+        (input)="resetButtonSwitch()"
       />
       <!-- </form> -->
 
@@ -20,9 +21,9 @@
         </div>
       </div>
       <button
-        (click)="username = ''"
+        (click)="clearInput()"
         class="btn btn-warning"
-        [disabled]="username === ''"
+        [disabled]="resetButtonOff"
       >
         Reset form
       </button>
