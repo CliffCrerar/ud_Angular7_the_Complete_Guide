@@ -4,10 +4,15 @@ import { Ingredients } from '../shared/ingredients.model';
 @Component({
 	selector: 'app-shopping-list',
 	templateUrl: './shopping-list.component.html',
-	styleUrls: [ './shopping-list.component.css' ]
+	styleUrls: [
+		'./shopping-list.component.css',
+	],
 })
 export class ShoppingListComponent implements OnInit {
-	ingredients = [ new Ingredients('Apples', 5), new Ingredients('Tomatos', 10) ];
+	ingredients = [
+		new Ingredients('Apples', 5),
+		new Ingredients('Tomatos', 10),
+	];
 
 	constructor() {}
 
