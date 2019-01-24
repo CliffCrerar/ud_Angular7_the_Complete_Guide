@@ -14,20 +14,6 @@
 		"emmet.triggerExpansionOnTab": true,
 		"typescriptHero.imports.insertSpaceBeforeAndAfterImportBraces": true,
 		"autoimport.showNotifications": true,
-		"html.format.indentInnerHtml": true,
-		"tslint.ignoreDefinitionFiles": true,
-		"jsDocCompletion.enabled": true,
-		"auto-close-tag.activationOnLanguage": [
-			"xml",
-			"javascript",
-			"typescript",
-			"HTML (Eex)"
-		],
-		"files.associations": {
-			"*.html": "html",
-			"*.ts": "typescript"
-		},
-		"html.suggest.html5": true,
 		"htmlhint.options": {
 			"attr-lowercase": [
 				"*ngIf",
