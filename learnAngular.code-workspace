@@ -1,7 +1,9 @@
 {
 	"folders": [
 		{
-			"path": "./Angular-course-project"
+			"path": "./My_servers"
+		}		{
+			"path": "./debugging"
 		}
 	],
 	"settings": {
