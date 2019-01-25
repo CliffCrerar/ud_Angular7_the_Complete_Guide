@@ -127,6 +127,15 @@
 		"typescript.referencesCodeLens.enabled": true,
 		"tsimporter.tsconfigName": "tsconfig.json",
 		"tsimporter.showNotifications": true,
-		"tsimporter.spaceBetweenBraces": true
+		"tsimporter.spaceBetweenBraces": true,
+			"angulardoc.schematics": [
+		"@schematics/angular",
+		"@ngrx/schematics",
+		"@angular/pwa",
+		"@ng-bootstrap/schematics",
+		"@angular/material",
+		"@clr/angular",
+		"@angular/elements"
+	],
 	}
 }
