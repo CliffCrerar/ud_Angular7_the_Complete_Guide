@@ -1,9 +1,16 @@
 {
 	"folders": [
 		{
-			"path": "./My_servers"
-		}		{
-			"path": "./debugging"
+			"path": "./1_my_servers"
+		},
+		{
+			"path": "./2_recipes_app"
+		},		
+		{
+			"path": "./3_debugging"
+		},
+		{
+			"path": "./Assignments"
 		}
 	],
 	"settings": {
