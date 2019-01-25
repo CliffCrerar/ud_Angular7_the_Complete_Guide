@@ -11,6 +11,9 @@
 		},
 		{
 			"path": "./Assignments"
+		},
+		{
+			"path": "./4_cmp-databinding"
 		}
 	],
 	"settings": {
