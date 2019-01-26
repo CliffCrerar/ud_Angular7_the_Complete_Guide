@@ -10,5 +10,19 @@ export class AppComponent {
 	newServerName = '';
 	newServerContent = '';
 
-
+	onServerAdded(serverData:{serverName:string,serverContent:string}){
+		console.log('serverData: ', serverData);
+		this.serverElements.push({
+			type:'server',
+			name:serverData.newServerName,
+			content: serverData.newServerContent,
+		});
+	}
+	onBluePrintAdded(bluePrintData:{serverName:string,serverContent:string}){
+		this.serverElements.push({
+			type: 'blueprint',
+			name: bluePrintData.newServerName,
+			content: bluePrintData.newServerContent
+		})
+	}
 }

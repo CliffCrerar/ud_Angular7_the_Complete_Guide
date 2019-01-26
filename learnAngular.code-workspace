@@ -1,5 +1,5 @@
 {
-	"folders": [ {
+	"folders": [{
 			"path": "./1_my_servers"
 		},
 		{
@@ -28,7 +28,7 @@
 			"@clr/angular",
 			"@angular/elements"
 		],
-		"angulardoc.directoryFilter": [ "!typings", "!node_modules", "!.vscode" ],
+		"angulardoc.directoryFilter": ["!typings", "!node_modules", "!.vscode"],
 		"typescript.validate.enable": true,
 		"typescript.autoClosingTags": true,
 		"typescript.check.npmIsInstalled": true,
@@ -63,23 +63,6 @@
 		"typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
 		"typescript.preferences.importModuleSpecifier": "relative",
 		"typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
-		"htmlhint.options": {
-			"attr-lowercase": [
-				"*ngIf",
-				"ngIf",
-				"*ngFor",
-				"ngFor",
-				"ngSwitch",
-				"ngModel",
-				"[(ngModel)]",
-				"#noServer",
-				"noServer",
-				"[ngStyle]",
-				"ngClass",
-				"[ngClass]"
-			],
-			"doctype-first": false
-		},
 		"typescript.referencesCodeLens.enabled": true,
 		"tsimporter.tsconfigName": "tsconfig.json",
 		"tsimporter.showNotifications": true,
@@ -140,5 +123,23 @@
 		"angulardoc.fileFilter": [
 			"**/!(*.*spec).ts"
 		],
+		"htmlhint.options": {
+			"attr-lowercase": [
+				"*ngIf",
+				"ngIf",
+				"*ngFor",
+				"ngFor",
+				"ngSwitch",
+				"ngModel",
+				"[(ngModel)]",
+				"#noServer",
+				"noServer",
+				"[ngStyle]",
+				"ngClass",
+				"[ngClass]",
+				"[srvElement]"
+			],
+			"doctype-first": false
+		},
 	}
 }
