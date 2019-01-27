@@ -1,9 +1,5 @@
 {
-	"folders": [
-		{
-			"path": "4_cmp-databinding"
-		}
-	],
+	"folders": [],
 	"settings": {
 		"autoimport.doubleQuotes": true,
 		"vsicons.presets.angular": true,
