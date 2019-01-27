@@ -1,7 +1,7 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { CockpitComponent } from './cockpit/cockpit.component';
@@ -11,15 +11,17 @@ import { ServerElementComponent } from './server-element/server-element.componen
 	declarations: [
 		AppComponent,
 		CockpitComponent,
-		ServerElementComponent
+		ServerElementComponent,
 	],
 	imports: [
 		BrowserModule,
 		FormsModule,
-// tslint:disable-next-line: deprecation
-		HttpModule
+		// tslint:disable-next-line: deprecation
+		HttpModule,
 	],
 	providers: [],
-	bootstrap: [AppComponent]
+	bootstrap: [
+		AppComponent,
+	],
 })
-export class AppModule { }
+export class AppModule {}

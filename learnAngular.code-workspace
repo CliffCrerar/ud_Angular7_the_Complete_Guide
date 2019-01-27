@@ -125,7 +125,7 @@
 				"[ngClass]",
 				"[srvElement]",
 				"(serverCreated)",
-				"(bluePringCreated)"
+				"(bluePrintCreated)"
 			],
 			"doctype-first": false
 		},
