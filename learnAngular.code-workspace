@@ -41,8 +41,6 @@
 		"autoimport.showNotifications": true,
 		"typescript.disableAutomaticTypeAcquisition": false,
 		"typescript.format.insertSpaceBeforeFunctionParenthesis": true,
-		"typescript.tsc.autoDetect": "on",
-		"files.associations": {},
 		"css.trace.server": "messages",
 		"typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
 		"typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
@@ -54,7 +52,7 @@
 		"tsimporter.showNotifications": true,
 		"tsimporter.spaceBetweenBraces": true,
 		"angulardoc.schematics": [
-			"@schematics/angular",
+			"@schematics/angullanar",
 			"@ngrx/schematics",
 			"@angular/pwa",
 			"@ng-bootstrap/schematics",
@@ -87,10 +85,6 @@
 		"typescriptHero.imports.organizeOnSave": true,
 		"typescriptHero.imports.removeTrailingIndex": true,
 		"typescriptHero.verbosity": "warn",
-		"prettier.typescriptEnable": [
-			"typescript",
-			"typescriptreact"
-		],
 		"editor.quickSuggestions": {
 			"other": true,
 			"comments": false,
@@ -99,7 +93,7 @@
 		"grunt.autoDetect": "off",
 		"gulp.autoDetect": "off",
 		"tslint.configFile": "./tsconfig.json",
-		"tslint.run": "onType",
+		"tslint.run": "onSave",
 		"javascript.preferences.quoteStyle": "single",
 		"javascript.preferences.importModuleSpecifier": "relative",
 		"javascript.referencesCodeLens.enabled": true,
@@ -125,12 +119,15 @@
 				"[ngClass]",
 				"[srvElement]",
 				"(serverCreated)",
-				"(bluePrintCreated)"
+				"(bluePrintCreated)",
+				"#serverNameInput"
 			],
 			"doctype-first": false
 		},
 		"tslint.alwaysShowRuleFailuresAsWarnings": true,
 		"prettier.tslintIntegration": true,
-		"powershell.codeFormatting.newLineAfterCloseBrace": true
+		"powershell.codeFormatting.newLineAfterCloseBrace": true,
+		"typescript.updateImportsOnFileMove.enabled": "always",
+		"workbench.colorTheme": "Palenight Theme"
 	}
 }
