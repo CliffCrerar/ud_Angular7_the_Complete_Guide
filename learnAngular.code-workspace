@@ -1,18 +1,7 @@
 {
-	"folders": [{
-			"path": "./1_my_servers"
-		},
+	"folders": [
 		{
-			"path": "./2_recipes_app"
-		},
-		{
-			"path": "./3_debugging"
-		},
-		{
-			"path": "./Assignments"
-		},
-		{
-			"path": "./4_cmp-databinding"
+			"path": "4_cmp-databinding"
 		}
 	],
 	"settings": {
@@ -52,7 +41,6 @@
 		"tslint.enable": true,
 		"typescriptHero.imports.insertSpaceBeforeAndAfterImportBraces": true,
 		"autoimport.showNotifications": true,
-		"tslint.ignoreDefinitionFiles": false,
 		"typescript.disableAutomaticTypeAcquisition": false,
 		"typescript.format.insertSpaceBeforeFunctionParenthesis": true,
 		"typescript.tsc.autoDetect": "on",
@@ -77,7 +65,7 @@
 			"@angular/elements"
 		],
 		"tslint.alwaysShowStatus": true,
-		"tslint.jsEnable": true,
+		"tslint.jsEnable": false,
 		"tslint.packageManager": "npm",
 		"tslint.suppressWhileTypeErrorsPresent": true,
 		"tslint.trace.server": "messages",
@@ -89,7 +77,7 @@
 			"Modules",
 			"Workspace"
 		],
-		"tslint.autoFixOnSave": false,
+		"tslint.autoFixOnSave": true,
 		"typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
 		"typescript.format.insertSpaceAfterKeywordsInControlFlowStatements": true,
 		"typescript.format.insertSpaceAfterSemicolonInForStatements": true,
@@ -112,8 +100,8 @@
 		},
 		"grunt.autoDetect": "off",
 		"gulp.autoDetect": "off",
-		"tslint.configFile": "./*/tsconfig.json",
-		"tslint.run": "onSave",
+		"tslint.configFile": "./tsconfig.json",
+		"tslint.run": "onType",
 		"javascript.preferences.quoteStyle": "single",
 		"javascript.preferences.importModuleSpecifier": "relative",
 		"javascript.referencesCodeLens.enabled": true,
@@ -137,9 +125,14 @@
 				"[ngStyle]",
 				"ngClass",
 				"[ngClass]",
-				"[srvElement]"
+				"[srvElement]",
+				"(serverCreated)",
+				"(bluePringCreated)"
 			],
 			"doctype-first": false
 		},
+		"tslint.alwaysShowRuleFailuresAsWarnings": true,
+		"prettier.tslintIntegration": true,
+		"powershell.codeFormatting.newLineAfterCloseBrace": true,
 	}
 }
