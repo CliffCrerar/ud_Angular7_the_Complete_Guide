@@ -1,5 +1,7 @@
 {
-	"folders": [],
+	"folders": [{
+		"path": "5_cmp-databindings"
+	}],
 	"settings": {
 		"autoimport.doubleQuotes": true,
 		"vsicons.presets.angular": true,
@@ -129,6 +131,6 @@
 		},
 		"tslint.alwaysShowRuleFailuresAsWarnings": true,
 		"prettier.tslintIntegration": true,
-		"powershell.codeFormatting.newLineAfterCloseBrace": true,
+		"powershell.codeFormatting.newLineAfterCloseBrace": true
 	}
 }
