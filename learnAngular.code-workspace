@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "2_recipes_app"
+		},
+		{
+			"path": "Assignments\\basic-assignment-4\\cmpDatabindingAssignment"
 		}
 	],
 	"settings": {
