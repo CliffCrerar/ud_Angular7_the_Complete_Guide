@@ -2,25 +2,20 @@
 	"folders": [
 		{
 			"path": "2_recipes_app"
-		},
-		{
-			"path": "5_cmp-databindings"
 		}
 	],
 	"settings": {
-		"autoimport.doubleQuotes": true,
+		"tslint.enable": true,
+		"tslint.autoFixOnSave": false,
+		"tslint.suppressWhileTypeErrorsPresent": true,
+		"tslint.configFile": "tsconfig.json",
+		"tslint.alwaysShowRuleFailuresAsWarnings": true,
+		"tslint.trace.server": "verbose",
+		"tslint.ignoreDefinitionFiles": false,
+		"tslint.nodePath": "./node_modules",
+		"tslint.packageManager": "npm",
+		"tslint.run": "onSave",
 		"vsicons.presets.angular": true,
-		"angular2-switcher.openSideBySide": true,
-		"ngschematics.schematics": [
-			"@schematics/angular",
-			"@ngrx/schematics",
-			"@angular/pwa",
-			"@ng-bootstrap/schematics",
-			"@angular/material",
-			"@clr/angular",
-			"@angular/elements"
-		],
-		"angulardoc.directoryFilter": ["!typings", "!node_modules", "!.vscode"],
 		"typescript.validate.enable": true,
 		"typescript.autoClosingTags": true,
 		"typescript.check.npmIsInstalled": true,
@@ -29,8 +24,8 @@
 		"typescript.format.insertSpaceAfterConstructor": true,
 		"typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
 		"typescript.format.insertSpaceAfterTypeAssertion": true,
-		"typescript.format.placeOpenBraceOnNewLineForFunctions": true,
-		"typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+		"typescript.format.placeOpenBraceOnNewLineForFunctions": false,
+		"typescript.format.placeOpenBraceOnNewLineForControlBlocks": false,
 		"typescript.implementationsCodeLens.enabled": true,
 		"typescript.locale": "en",
 		"typescript.reportStyleChecksAsWarnings": true,
@@ -39,11 +34,6 @@
 		"typescript.suggestionActions.enabled": true,
 		"typescript.tsserver.log": "verbose",
 		"typescript.tsserver.trace": "verbose",
-		"typescriptHero.imports.insertSemicolons": true,
-		"typescriptHero.imports.stringQuoteStyle": "'",
-		"tslint.enable": true,
-		"typescriptHero.imports.insertSpaceBeforeAndAfterImportBraces": true,
-		"autoimport.showNotifications": true,
 		"typescript.disableAutomaticTypeAcquisition": false,
 		"typescript.format.insertSpaceBeforeFunctionParenthesis": true,
 		"css.trace.server": "messages",
@@ -53,43 +43,15 @@
 		"typescript.preferences.importModuleSpecifier": "relative",
 		"typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
 		"typescript.referencesCodeLens.enabled": true,
-		"tsimporter.tsconfigName": "tsconfig.json",
-		"tsimporter.showNotifications": true,
-		"tsimporter.spaceBetweenBraces": true,
-		"angulardoc.schematics": [
-			"@schematics/angullanar",
-			"@ngrx/schematics",
-			"@angular/pwa",
-			"@ng-bootstrap/schematics",
-			"@angular/material",
-			"@clr/angular",
-			"@angular/elements"
-		],
-		"tslint.alwaysShowStatus": true,
-		"tslint.jsEnable": false,
-		"tslint.packageManager": "npm",
-		"tslint.suppressWhileTypeErrorsPresent": true,
-		"tslint.trace.server": "messages",
 		"quicktype.inferBooleanStrings": true,
 		"quicktype.inferMaps": true,
 		"quicktype.justTypes": true,
-		"typescriptHero.imports.grouping": [
-			"Plains",
-			"Modules",
-			"Workspace"
-		],
-		"tslint.autoFixOnSave": true,
 		"typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
 		"typescript.format.insertSpaceAfterKeywordsInControlFlowStatements": true,
 		"typescript.format.insertSpaceAfterSemicolonInForStatements": true,
 		"typescript.preferences.quoteStyle": "single",
 		"typescript.suggest.completeFunctionCalls": true,
 		"typescript.suggest.enabled": true,
-		"typescriptHero.imports.multiLineTrailingComma": true,
-		"typescriptHero.imports.multiLineWrapThreshold": 125,
-		"typescriptHero.imports.organizeOnSave": true,
-		"typescriptHero.imports.removeTrailingIndex": true,
-		"typescriptHero.verbosity": "warn",
 		"editor.quickSuggestions": {
 			"other": true,
 			"comments": false,
@@ -97,17 +59,9 @@
 		},
 		"grunt.autoDetect": "off",
 		"gulp.autoDetect": "off",
-		"tslint.configFile": "./tsconfig.json",
-		"tslint.run": "onSave",
 		"javascript.preferences.quoteStyle": "single",
 		"javascript.preferences.importModuleSpecifier": "relative",
 		"javascript.referencesCodeLens.enabled": true,
-		"angulardoc.access_token": "e7a022f9-d8a9-4cc1-a794-247b2a31e4a1",
-		"angulardoc.email": "cliff.crerar@gmail.com",
-		"angulardoc.username": "CliffCrerar",
-		"angulardoc.fileFilter": [
-			"**/!(*.*spec).ts"
-		],
 		"htmlhint.options": {
 			"attr-lowercase": [
 				"*ngIf",
@@ -128,17 +82,21 @@
 				"#serverNameInput",
 				"#contentParagraph",
 				"(bpCreated)",
-				"(featureSelected)"
+				"(featureSelected)",
+				"#recipeElement",
+				"(recipeSelect)",
+				"(recipeWasSelected)"
 			],
 			"doctype-first": false
 		},
-		"tslint.alwaysShowRuleFailuresAsWarnings": true,
-		"prettier.tslintIntegration": true,
 		"powershell.codeFormatting.newLineAfterCloseBrace": true,
 		"typescript.updateImportsOnFileMove.enabled": "always",
 		"workbench.colorTheme": "Palenight Theme",
-		"tsimporter.noStatusBar": true,
+		"tsimporter.noStatusBar": false,
 		"tsimporter.disabled": false,
-		"prettier.parser": "angular"
+		"tsimporter.preferRelative": true,
+		"tsimporter.tsconfigName": "./tsconfig.json",
+		"tsimporter.showNotifications": true,
+		"tsimporter.spaceBetweenBraces": true
 	}
 }
