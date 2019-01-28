@@ -8,6 +8,8 @@
 		}
 	],
 	"settings": {
+		"angular-template-formatter.indentWidth": 4,
+		"angular-template-formatter.useSpaces": false,
 		"tslint.enable": true,
 		"tslint.autoFixOnSave": false,
 		"tslint.suppressWhileTypeErrorsPresent": true,
@@ -100,6 +102,7 @@
 		"tsimporter.preferRelative": true,
 		"tsimporter.tsconfigName": "./tsconfig.json",
 		"tsimporter.showNotifications": true,
-		"tsimporter.spaceBetweenBraces": true
+		"tsimporter.spaceBetweenBraces": true,
+		"gitlens.statusBar.enabled": true
 	}
 }
