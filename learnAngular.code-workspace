@@ -1,7 +1,12 @@
 {
-	"folders": [{
-		"path": "5_cmp-databindings"
-	}],
+	"folders": [
+		{
+			"path": "2_recipes_app"
+		},
+		{
+			"path": "5_cmp-databindings"
+		}
+	],
 	"settings": {
 		"autoimport.doubleQuotes": true,
 		"vsicons.presets.angular": true,
@@ -120,7 +125,10 @@
 				"[srvElement]",
 				"(serverCreated)",
 				"(bluePrintCreated)",
-				"#serverNameInput"
+				"#serverNameInput",
+				"#contentParagraph",
+				"(bpCreated)",
+				"(featureSelected)"
 			],
 			"doctype-first": false
 		},
@@ -128,6 +136,9 @@
 		"prettier.tslintIntegration": true,
 		"powershell.codeFormatting.newLineAfterCloseBrace": true,
 		"typescript.updateImportsOnFileMove.enabled": "always",
-		"workbench.colorTheme": "Palenight Theme"
+		"workbench.colorTheme": "Palenight Theme",
+		"tsimporter.noStatusBar": true,
+		"tsimporter.disabled": false,
+		"prettier.parser": "angular"
 	}
 }
