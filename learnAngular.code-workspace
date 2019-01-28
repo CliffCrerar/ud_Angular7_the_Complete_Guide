@@ -5,17 +5,25 @@
 		},
 		{
 			"path": "Assignments\\basic-assignment-4\\cmpDatabindingAssignment"
+		},
+		{
+			"path": "5_cmp-databindings"
+		},
+		{
+			"path": "1_my_servers"
 		}
 	],
 	"settings": {
 		"angular-template-formatter.indentWidth": 4,
 		"angular-template-formatter.useSpaces": false,
+		"angular-template-formatter.closeTagSameLine": true,
+		"angular2-switcher.openSideBySide": true,
 		"tslint.enable": true,
 		"tslint.autoFixOnSave": false,
 		"tslint.suppressWhileTypeErrorsPresent": true,
 		"tslint.configFile": "tsconfig.json",
 		"tslint.alwaysShowRuleFailuresAsWarnings": true,
-		"tslint.trace.server": "verbose",
+		"tslint.trace.server": "messages",
 		"tslint.ignoreDefinitionFiles": false,
 		"tslint.nodePath": "./node_modules",
 		"tslint.packageManager": "npm",
@@ -90,7 +98,8 @@
 				"(featureSelected)",
 				"#recipeElement",
 				"(recipeSelect)",
-				"(recipeWasSelected)"
+				"(recipeWasSelected)",
+				"(ingredientAdded)"
 			],
 			"doctype-first": false
 		},
@@ -103,6 +112,37 @@
 		"tsimporter.tsconfigName": "./tsconfig.json",
 		"tsimporter.showNotifications": true,
 		"tsimporter.spaceBetweenBraces": true,
-		"gitlens.statusBar.enabled": true
+		"gitlens.statusBar.enabled": true,
+		"autoimport.filesToScan": "**/*.{js,jsx,ts,tsx}",
+		"autoimport.doubleQuotes": false,
+		"autoimport.absolute": true,
+		"npm-intellisense.importES6": true,
+		"angulardoc.directoryFilter": [
+			"!typings",
+			"!node_modules",
+			"!.vscode"
+		],
+		"angulardoc.schematics": [
+			"@schematics/angular",
+			"@ngrx/schematics",
+			"@angular/pwa",
+			"@ng-bootstrap/schematics",
+			"@angular/material",
+			"@clr/angular",
+			"@angular/elements"
+		],
+		"angulardoc.username": "CliffCrerar",
+		"material-icon-theme.activeIconPack": "angular",
+		"angulardoc.access_token": "5f128326-37ea-407f-b17a-9754444d33b6",
+		"angulardoc.email": "CliffCrerar",
+		"ngschematics.schematics": [
+			"@angular/material",
+			"@schematics/angular",
+			"@ngrx/schematics"
+		],
+		"htmlScss.isAngularProject": true,
+		"html.format.enable": false,
+		"html.format.indentInnerHtml": false,
+		"html.format.indentHandlebars": false
 	}
 }
