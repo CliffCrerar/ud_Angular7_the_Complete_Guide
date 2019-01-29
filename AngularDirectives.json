@@ -1,0 +1,11 @@
+[
+	"*ngIf",
+	"ngIf",
+	"*ngFor",
+	"ngFor",
+	"ngSwitch",
+	"[(ngModel)]",
+	"[ngStyle]",
+	"ngClass",
+	"[ngClass]"
+]

@@ -1,0 +1,16 @@
+[
+	"ngModel",
+	"#noServer",
+	"noServer",
+	"[srvElement]",
+	"(serverCreated)",
+	"(bluePrintCreated)",
+	"#serverNameInput",
+	"#contentParagraph",
+	"(bpCreated)",
+	"(featureSelected)",
+	"#recipeElement",
+	"(recipeSelect)",
+	"(recipeWasSelected)",
+	"(ingredientAdded)"
+]
