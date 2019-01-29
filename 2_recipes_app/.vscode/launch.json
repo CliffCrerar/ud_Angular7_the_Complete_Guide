@@ -17,6 +17,13 @@
 			"name": "2_npm start",
 			"url": "http://localhost:4200",
 			"webRoot": "${workspaceFolder}/2_recipers_app"
+		},
+		{
+			"type": "chrome",
+			"request": "launch",
+			"name": "9_npm start",
+			"url": "http://localhost:4200",
+			"webRoot": "${workspaceFolder}/9_service-start"
 		}
 	]
 }

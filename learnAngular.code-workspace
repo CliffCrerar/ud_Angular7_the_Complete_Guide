@@ -14,6 +14,9 @@
 		},
 		{
 			"path": "7_directives-final"
+		},
+		{
+			"path": "9_services-start"
 		}
 	],
 	"settings": {
@@ -111,13 +114,16 @@
 				"appBasicHighlight",
 				"defaultColor",
 				"DropdownDirective",
-				"appDropDown"
+				"appDropDown",
+				"#accountName",
+				"(accountAdded)",
+				"(statusChanged)"
 			],
 			"doctype-first": false
 		},
 		"powershell.codeFormatting.newLineAfterCloseBrace": true,
 		"typescript.updateImportsOnFileMove.enabled": "always",
-		"workbench.colorTheme": "Palenight Theme",
+		"workbench.colorTheme": "Base16 Dark Railscasts",
 		"tsimporter.noStatusBar": false,
 		"tsimporter.disabled": false,
 		"tsimporter.preferRelative": true,
