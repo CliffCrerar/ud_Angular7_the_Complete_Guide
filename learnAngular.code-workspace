@@ -17,6 +17,9 @@
 		},
 		{
 			"path": "9_services-start"
+		},
+		{
+			"path": "Assignments"
 		}
 	],
 	"settings": {
@@ -121,7 +124,6 @@
 			],
 			"doctype-first": false
 		},
-		"powershell.codeFormatting.newLineAfterCloseBrace": true,
 		"typescript.updateImportsOnFileMove.enabled": "always",
 		"workbench.colorTheme": "Base16 Dark Railscasts",
 		"tsimporter.noStatusBar": false,
