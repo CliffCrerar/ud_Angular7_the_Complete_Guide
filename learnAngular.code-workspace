@@ -130,7 +130,6 @@
 		"tsimporter.tsconfigName": "./tsconfig.json",
 		"tsimporter.showNotifications": true,
 		"tsimporter.spaceBetweenBraces": true,
-		"gitlens.statusBar.enabled": true,
 		"autoimport.filesToScan": "**/*.{js,jsx,ts,tsx}",
 		"autoimport.doubleQuotes": false,
 		"autoimport.absolute": true,
