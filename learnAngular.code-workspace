@@ -20,13 +20,19 @@
 		},
 		{
 			"path": "Assignments"
+		},
+		{
+			"path": "orig_routing-start"
+		},
+		{
+			"path": "11_routing"
 		}
 	],
 	"settings": {
 		"angular-template-formatter.indentWidth": 4,
 		"angular-template-formatter.useSpaces": false,
 		"angular-template-formatter.closeTagSameLine": true,
-		"angular2-switcher.openSideBySide": true,
+		"angular2-switcher.openSideBySide": false,
 		"tslint.enable": true,
 		"tslint.autoFixOnSave": false,
 		"tslint.suppressWhileTypeErrorsPresent": true,
@@ -120,7 +126,10 @@
 				"appDropDown",
 				"#accountName",
 				"(accountAdded)",
-				"(statusChanged)"
+				"(statusChanged)",
+				"routerLink",
+				"[routerLink]",
+				"routerLinkActive"
 			],
 			"doctype-first": false
 		},
@@ -162,6 +171,8 @@
 		"htmlScss.isAngularProject": true,
 		"html.format.enable": false,
 		"html.format.indentInnerHtml": false,
-		"html.format.indentHandlebars": false
+		"html.format.indentHandlebars": false,
+		"angular.preview": false,
+		"angular.automatic": false
 	}
 }
