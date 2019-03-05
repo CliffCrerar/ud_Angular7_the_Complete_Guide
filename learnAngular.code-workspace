@@ -126,7 +126,10 @@
 				"appDropDown",
 				"#accountName",
 				"(accountAdded)",
-				"(statusChanged)"
+				"(statusChanged)",
+				"routerLink",
+				"[routerLink]",
+				"routerLinkActive"
 			],
 			"doctype-first": false
 		},
