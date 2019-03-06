@@ -8,8 +8,8 @@ import { Subscription } from 'rxjs';
 	styleUrls: [ './user.component.css' ]
 } )
 export class UserComponent implements OnInit, OnDestroy {
-	user: { id: number, name: string };
-	paramsSubscription: Subscription
+	private user: { id: number, name: string };
+	private paramsSubscription: Subscription
 	constructor ( private route: ActivatedRoute ) { }
 	ngOnInit () {
 		console.log( 'this.route: ', this.route );
@@ -32,7 +32,7 @@ export class UserComponent implements OnInit, OnDestroy {
 	// In this case this is an unsubscription that is done by angular automatically
 	// To do this is a extra measure but paramsSubscription in this case of type Subscription is how you may access a subscription
 	ngOnDestroy () {
-		this.paramsSubscription.unsubscribe();
+		//	this.paramsSubscription.unsubscribe();
 	}
 }
 
