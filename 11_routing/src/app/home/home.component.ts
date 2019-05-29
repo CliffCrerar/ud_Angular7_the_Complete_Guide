@@ -1,20 +1,20 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { relative } from 'path';
+//import { relative } from 'path';
 
-@Component( {
+@Component({
 	selector: 'app-home',
 	templateUrl: './home.component.html',
-	styleUrls: [ './home.component.css' ]
-} )
+	styleUrls: ['./home.component.css']
+})
 export class HomeComponent implements OnInit {
 
-	constructor ( private router: Router ) { }
+	constructor(private router: Router) { }
 
-	ngOnInit () {
+	ngOnInit() {
 	}
-	onLoadServers ( id: number ) {
+	onLoadServers(id: number) {
 		// calcs
-		this.router.navigate( [ '/servers', id, 'edit' ], { queryParams: { allowEdit: '1' }, fragment: "loading" } )
+		this.router.navigate(['/servers', id, 'edit'], { queryParams: { allowEdit: '1' }, fragment: "loading" })
 	}
 }

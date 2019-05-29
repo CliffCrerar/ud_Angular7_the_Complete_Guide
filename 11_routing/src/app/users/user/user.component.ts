@@ -2,28 +2,28 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { Subscription } from 'rxjs';
 
-@Component( {
+@Component({
 	selector: 'app-user',
 	templateUrl: './user.component.html',
-	styleUrls: [ './user.component.css' ]
-} )
+	styleUrls: ['./user.component.css']
+})
 export class UserComponent implements OnInit, OnDestroy {
 	private user: { id: number, name: string };
 	private paramsSubscription: Subscription
-	constructor ( private route: ActivatedRoute ) { }
-	ngOnInit () {
-		console.log( 'this.route: ', this.route );
-		console.log( 'this.route.snapshot.params: ', this.route.snapshot.params );
+	constructor(private route: ActivatedRoute) { }
+	ngOnInit() {
+		console.log('this.route: ', this.route);
+		console.log('this.route.snapshot.params: ', this.route.snapshot.params);
 		// Params is an observable
 		// Best practice for dynamic routing
 		this.user = {
-			id: this.route.snapshot.params[ 'id' ],
-			name: this.route.snapshot.params[ 'name' ],
+			id: this.route.snapshot.params['id'],
+			name: this.route.snapshot.params['name'],
 		};
 		this.route.params.subscribe(
-			( params: Params ) => {
-				this.user.id = params[ 'id' ];
-				this.user.name = params[ 'name' ];
+			(params: Params) => {
+				this.user.id = params['id'];
+				this.user.name = params['name'];
 			}
 		)
 	}
@@ -31,7 +31,7 @@ export class UserComponent implements OnInit, OnDestroy {
 	// Accessing the subscription
 	// In this case this is an unsubscription that is done by angular automatically
 	// To do this is a extra measure but paramsSubscription in this case of type Subscription is how you may access a subscription
-	ngOnDestroy () {
+	ngOnDestroy() {
 		//	this.paramsSubscription.unsubscribe();
 	}
 }

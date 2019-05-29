@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "11_routing"
+		},
+		{
+			"path": "13_observables"
 		}
 	],
 	"settings": {
