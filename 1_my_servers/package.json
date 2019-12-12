@@ -27,7 +27,7 @@
     "npm": "^6.7.0",
     "rxjs": "~6.3.3",
     "zone.js": "~0.8.26",
-    "snyk": "^1.241.0"
+    "snyk": "^1.258.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.12.2",
